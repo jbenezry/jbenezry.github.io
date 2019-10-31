@@ -2038,6 +2038,8 @@ input, select, textarea {
 
 	#nav {
 		background-color: #282828;
+		display: flex;
+		justify-content: space-between;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2048,6 +2050,20 @@ input, select, textarea {
 		height: 3.5em;
 		line-height: 3.5em;
 	}
+
+		#name {
+			font-size: 28px;
+			letter-spacing: .05em;
+			padding-left: 10px;
+			/* font-family:  */
+		}
+
+		/* #right-container {
+			display: flex;
+			justify-content: ;
+			/* margin: 0px 10px; 
+			
+		} */
 
 		#nav ul {
 			margin-bottom: 0;
