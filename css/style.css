@@ -236,6 +236,22 @@ p.cta-sub-title
 	margin-bottom: 40px;
 }
 
+.image-cropper {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.headshot {
+  display: inline;
+  margin: 0 auto;
+  /* margin-left: -25%; //centers the image */
+  height: 100%;
+  width: 100%;
+}
+
 
 
 .fil-btn .active
